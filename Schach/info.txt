@@ -1,0 +1,13 @@
+Bei diesem Skript handelt es sich um ein Schachspiel, das vollständig in HTML, CSS und JavaScript implementiert ist.
+
+Du spielst mit den weißen Figuren gegen eine Computer-KI. Die Spielstärke der KI lässt sich in fünf Stufen anpassen, die von "Anfänger" (ELO ~800) bis "Experte" (ELO ~1800) reichen. Das Spiel beinhaltet ein ELO-Bewertungssystem, bei dem du und die KI nach jeder Partie Punkte gewinnen oder verlieren, abhängig vom Ergebnis und der eingestellten Schwierigkeit.
+
+Wichtige Funktionen sind:
+
+- Visuelle Hervorhebung möglicher Züge, des letzten Zugs und von Schachsituationen.
+- Eine Zughistorie, die die letzten Züge anzeigt.
+- Eine Funktion zur Bauernumwandlung.
+- Soundeffekte, die an- und ausgeschaltet werden können.
+- Für höhere Schwierigkeitsstufen verwendet die KI einen Minimax-Algorithmus, um stärkere Züge zu berechnen.
+
+Das Spiel ist responsiv gestaltet und bietet Tastenkürzel für "Neues Spiel" (N) und "Sound umschalten" (S).
